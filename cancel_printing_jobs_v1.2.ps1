@@ -66,13 +66,6 @@ try {
 
   # If the flag for sending email is setted to true, send the email
   if ($flag_send_email -eq $true) {
-    # Sending email
-    $EmailSmtpServer = 'mail.mnpsa.com.cu'
-    $EmailFrom = 'Printers Watcher on SERVER-PSX <no-reply@server.com>'
-    $EmailTo = 'Grupo de Redes <gredes@moanickel.com.cu>'
-    $EmailSubject = "$date - Cancelled printing jobs daily report"
-    $EmailSubject = "Errored print jobs report - $date"
-
     $EmailBody = '<style type="text/css">
     p,h1 {
         font-family: "Segoe UI";
