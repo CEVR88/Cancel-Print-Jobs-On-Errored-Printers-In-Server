@@ -5,3 +5,5 @@ This script checks for errored printers in a Windows print server and cancels al
   - 6 (No toner)
   - 8 (Jammed)
   - 9 (Offline)
+
+This script was created using Powershell baby 
