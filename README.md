@@ -8,4 +8,4 @@ This script checks for errored printers in a Windows print server and cancels al
 
 This script runs every 5 minutes in a scheduled job as a Windows Task in a Print Server. Whenever it finds printers with some of those errors, it cleans its stored print jobs and notifies the network admins which printers in those states of error had jobs and how many of them were reserved.
 
-This script was created using Powershell baby 
+This script was created using Powershell
